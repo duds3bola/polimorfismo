@@ -1,0 +1,27 @@
+public class Personagem {
+    private String nome;
+    private int vida;
+    private int nivel;
+
+    public Personagem(String nome, int vida, int nivel) {
+        this.nome = nome;
+        this.vida = vida;
+        this.nivel = nivel;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getVida() {
+        return vida;
+    }
+
+    public int getNivel() {
+        return nivel;
+    }
+
+    public void atacar() {
+        System.out.println(nome + " está atacando!");
+    }
+}
